@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+body{
+    background-color:antiquewhite
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    
+    align-items:center;
+    list-style-type:none;
+    height: 40px;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    padding: 0;
+}
+    
+
+nav ul li{
+    padding: 0 12px;   
+}
+.brand img{
+    
+    width:40px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: pink;
+}
+.bottom{
+    position:sticky;
+    height:85px;
+    background-color: black;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    flex-direction: column;
+}
+.container{
+    height:62vh;
+    background-color: dimgrey;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    width: 60%;
+    margin: 14px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: contain;
+    background-position: left 15px top 0; 
+    
+    
+    
+
+}
+.icons{
+    margin-top: 8px;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width:80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 30px;
+}
+.songItem{
+    height: 34px;
+    display: flex;
+    background-color: white;
+    width:80%;
+    color: black;
+    margin: 8px 0;
+    justify-content:space-around;
+    align-items:center;
+    border-radius: 40px;
+}
+.songItem img{
+    width: 34px;
+    margin: 0 8px;
+    height: 30px;
+    border-radius: 34px;
+    
+}
+.timestamp{
+    margin:0 12px;
+    
+}
+.timestamp i{
+    cursor:pointer;
+}
+.songinfo{
+    position:absolute;
+    left:10vw;
+}
+.songinfo img{
+    opacity:0;
+    transition:opacity 0.5s ease-in;
+}
